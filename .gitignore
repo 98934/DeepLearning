@@ -1,2 +1,10 @@
 
 *.data-00000-of-00002
+TenCNNs/net01_AlexNet/checkpoint/AlexNet8.ckpt.data-00001-of-00002
+TenCNNs/net01_AlexNet/checkpoint/AlexNet8.ckpt.index
+TenCNNs/net01_AlexNet/checkpoint/checkpoint
+TenCNNs/net02_VGGNet/checkpoint/checkpoint
+*.data-00000-of-00001
+*.index
+TenCNNs/net04_ResNet/checkpoint/checkpoint
+*.data-00001-of-00002
