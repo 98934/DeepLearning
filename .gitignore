@@ -8,3 +8,5 @@ TenCNNs/net02_VGGNet/checkpoint/checkpoint
 *.index
 TenCNNs/net04_ResNet/checkpoint/checkpoint
 *.data-00001-of-00002
+/AndrewNg/卷积神经网络/week3检测算法/
+/docs/
