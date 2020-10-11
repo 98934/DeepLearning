@@ -1,5 +1,6 @@
 import tensorflow as tf
-from net05_ResNeXt import resnext
+from TenCNNs.net05_ResNeXt import resnext
+
 
 cifar10 = tf.keras.datasets.cifar10
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
