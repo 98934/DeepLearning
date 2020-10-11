@@ -1,5 +1,5 @@
 import tensorflow as tf
-from configuration import NUM_CLASSES
+NUM_CLASSES = 10
 
 
 class ResNeXt_BottleNeck(tf.keras.layers.Layer):
@@ -55,6 +55,7 @@ def build_ResNeXt_block(filters, strides, groups, repeat_num):
                                      groups=groups))
 
     return block
+
 
 class ResNeXt(tf.keras.Model):
     def __init__(self, repeat_num_list, cardinality):
